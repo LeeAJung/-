@@ -27,7 +27,7 @@ a {
 }
 
 /* 一级导航栏小块样式 */
-.topnav__item {
+.topnav__item--gray {
 	float: left;
 	width: 80px;
 	height: 50px;
@@ -43,7 +43,7 @@ a {
 	text-align: center;
 }
 
-.topnav__item:hover {
+.topnav__item--gray:hover {
 	background:#BBBBFF;
 }
 
@@ -54,17 +54,17 @@ a {
 }
 
 /* 二级导航栏小块样式 */
-.subnav__item {
+.subnav__item--black {
 	float: left;
-	width: 130px;
+	width: 150px;
 	height: 50px;
 	background: #000;
 }
 
-.topnav__item:hover ul{
+.topnav__item--gray:hover ul{
 	display: block;
 }
-.subnav__item:hover{
+.subnav__item--black:hover{
 	background-color: #BBBBFF;
 }
 /* 二级导航栏链接样式 */

@@ -1,0 +1,77 @@
+	/* 去掉默认的margin和padding */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 页面整体ul和li样式 */
+ul,li {
+	list-style: none;
+}
+/* 页面链接样式 */
+a {
+	text-decoration: none;
+}
+
+/* 导航栏整体样式 */
+.nav {
+	width: auto;
+	height: 50px;
+	overflow:hidden;
+	background: rgb(51, 51, 51);
+}
+
+/* 一级导航栏整体样式 */
+.topnav {
+	width: auto;
+	height: 50px;
+}
+
+/* 一级导航栏小块样式 */
+.topnav__item {
+	float: left;
+	width: 80px;
+	height: 50px;
+}
+
+/* 一级导航栏链接样式 */
+.topnav__link {
+	display: block;
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	color: antiquewhite;
+	text-align: center;
+}
+
+.topnav__item:hover {
+	background:#BBBBFF;
+}
+
+/* 二级导航栏整体样式 */
+.subnav {
+	position: absolute;
+	display: none;
+}
+
+/* 二级导航栏小块样式 */
+.subnav__item {
+	float: left;
+	width: 130px;
+	height: 50px;
+	background: #000;
+}
+
+.topnav__item:hover ul{
+	display: block;
+}
+.subnav__item:hover{
+	background-color: #BBBBFF;
+}
+/* 二级导航栏链接样式 */
+.subnav__link {
+	display: block;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
